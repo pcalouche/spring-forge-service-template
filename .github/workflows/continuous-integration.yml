@@ -30,3 +30,6 @@ jobs:
           cache: maven
       - name: Run Maven
         run: mvn -B clean verify
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ github.token }}
