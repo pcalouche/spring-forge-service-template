@@ -1,0 +1,5 @@
+springforge:
+  logging:
+    json-format: true
+  common-controller-advice:
+    enabled: true
