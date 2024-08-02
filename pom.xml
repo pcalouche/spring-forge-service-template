@@ -51,7 +51,7 @@
       <snapshots>
         <enabled>true</enabled>
       </snapshots>
-      <id>github</id>
+      <id>github-pcalouche-spring-forge</id>
       <url>https://maven.pkg.github.com/pcalouche/spring-forge</url>
     </repository>
   </repositories>
