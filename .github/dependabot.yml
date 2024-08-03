@@ -7,7 +7,7 @@ registries:
     type: "maven-repository"
     url: "https://maven.pkg.github.com/pcalouche/spring-forge"
     username: pcalouche
-    password: "${{ secrets.GITHUB_TOKEN }}"
+    password: "${{ secrets.PCALOUCHE_READ_PACKAGE_TOKEN }}"
 updates:
   - package-ecosystem: "maven"
     directory: "/"
