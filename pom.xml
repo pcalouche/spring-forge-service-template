@@ -18,9 +18,9 @@
 
   <distributionManagement>
     <repository>
-      <id>github-pcalouche-spring-forge-skeleton</id>
-      <name>Spring Forge Skeleton</name>
-      <url>https://maven.pkg.github.com/pcalouche/spring-forge-skeleton</url>
+      <id>github-pcalouche-spring-forge-service-template</id>
+      <name>Spring Forge Service Template</name>
+      <url>https://maven.pkg.github.com/pcalouche/spring-forge-service-template</url>
     </repository>
   </distributionManagement>
 
