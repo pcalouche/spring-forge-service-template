@@ -22,3 +22,16 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "main"
+  - package-ecosystem: "maven"
+    directory: "/"
+    registries:
+      - central
+      - github-pcalouche-spring-forge
+    schedule:
+      interval: "weekly"
+    target-branch: "spring33x-release"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "spring33x-release"
