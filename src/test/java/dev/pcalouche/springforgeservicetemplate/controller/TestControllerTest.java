@@ -1,4 +1,4 @@
-package com.pcalouche.springskeleton.controller;
+package dev.pcalouche.springforgeservicetemplate.controller;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

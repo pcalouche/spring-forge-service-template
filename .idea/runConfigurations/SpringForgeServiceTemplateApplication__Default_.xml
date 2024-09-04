@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="SpringSkeleton (Default)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false" name="SpringForgeServiceTemplateApplication (Default)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
     <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-    <module name="spring-forge-skeleton" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.pcalouche.springskeleton.SpringSkeleton" />
+    <module name="spring-forge-service-template" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="dev.pcalouche.springforgeservicetemplate.SpringForgeServiceTemplateApplication" />
     <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
     <extension name="net.ashald.envfile">
       <option name="IS_ENABLED" value="false" />

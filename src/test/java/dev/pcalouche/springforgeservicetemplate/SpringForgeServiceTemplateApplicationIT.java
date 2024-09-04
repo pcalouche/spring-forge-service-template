@@ -1,4 +1,4 @@
-package com.pcalouche.springskeleton;
+package dev.pcalouche.springforgeservicetemplate;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-public class SpringSkeletonTests {
+public class SpringForgeServiceTemplateApplicationIT {
 
 	@Test
 	public void contextLoads() {
