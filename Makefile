@@ -12,3 +12,7 @@ mvn-verify: format
 .PHONY: mvn-verify-skip-tests
 mvn-verify-skip-tests: format
 	mvn clean verify -DskipTests
+
+.PHONY: mvn-verify-ci
+mvn-verify-ci:
+	mvn -B -s ./.mvn/settings.xml verify
