@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>dev.pcalouche.springforge.spring35x</groupId>
+    <groupId>dev.pcalouche.springforge.spring40x</groupId>
     <artifactId>spring-forge-starter-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <relativePath/>
@@ -13,7 +13,7 @@
   <groupId>dev.pcalouche</groupId>
   <artifactId>spring-forge-service-template</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <description>Spring Forge Service Template is a Spring Boot application that demonstrates how to use Spring Forge</description>
+  <description>Spring Forge Service Template is a Spring Boot application that demonsmak trates how to use Spring Forge</description>
   <url>https://github.com/pcalouche/spring-forge-service-template</url>
 
   <distributionManagement>
@@ -26,7 +26,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>dev.pcalouche.springforge.spring35x</groupId>
+      <groupId>dev.pcalouche.springforge.spring40x</groupId>
       <artifactId>pcalouche-spring-boot-starter-app</artifactId>
     </dependency>
     <dependency>
@@ -46,7 +46,7 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>dev.pcalouche.springforge.spring35x</groupId>
+      <groupId>dev.pcalouche.springforge.spring40x</groupId>
       <artifactId>pcalouche-spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>

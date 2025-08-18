@@ -29,9 +29,9 @@ updates:
       - github-pcalouche-spring-forge
     schedule:
       interval: "weekly"
-    target-branch: "spring33x-release"
+    target-branch: "spring35x-release"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
-    target-branch: "spring33x-release"
+    target-branch: "spring35x-release"
