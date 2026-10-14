@@ -26,7 +26,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>dev.pcalouche.springforge.spring35x</groupId>
+      <groupId>dev.pcalouche.springforge.spring35x.starter</groupId>
       <artifactId>pcalouche-spring-boot-starter-app</artifactId>
     </dependency>
     <dependency>
@@ -46,7 +46,7 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>dev.pcalouche.springforge.spring35x</groupId>
+      <groupId>dev.pcalouche.springforge.spring35x.starter</groupId>
       <artifactId>pcalouche-spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>

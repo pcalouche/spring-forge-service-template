@@ -1,7 +1,7 @@
 package dev.pcalouche.springforgeservicetemplate.controller;
 
-import dev.pcalouche.springforge.libs.exceptions.ResourceForbiddenException;
-import dev.pcalouche.springforge.libs.exceptions.ResourceNotFoundException;
+import dev.pcalouche.springforge.core.exceptions.ResourceForbiddenException;
+import dev.pcalouche.springforge.core.exceptions.ResourceNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
