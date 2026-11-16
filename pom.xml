@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>dev.pcalouche.springforge.spring35x</groupId>
+    <groupId>pcalouche.springforge.sb35x.boot</groupId>
     <artifactId>spring-forge-starter-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <relativePath/>
@@ -26,13 +26,13 @@
 
   <dependencies>
     <dependency>
-      <groupId>dev.pcalouche.springforge.spring35x.starter</groupId>
-      <artifactId>pcalouche-spring-boot-starter-app</artifactId>
-    </dependency>
-    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-configuration-processor</artifactId>
       <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>pcalouche.springforge.sb35x.boot</groupId>
+      <artifactId>spring-forge-web-app-spring-boot-starter</artifactId>
     </dependency>
     <dependency>
       <groupId>org.projectlombok</groupId>
@@ -46,8 +46,8 @@
       <optional>true</optional>
     </dependency>
     <dependency>
-      <groupId>dev.pcalouche.springforge.spring35x.starter</groupId>
-      <artifactId>pcalouche-spring-boot-starter-test</artifactId>
+      <groupId>pcalouche.springforge.sb35x.boot</groupId>
+      <artifactId>spring-forge-spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>
